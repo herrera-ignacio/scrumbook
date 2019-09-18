@@ -268,7 +268,24 @@ Scrum Master and Dev Team, should disculss KEY points with PO and gain undestand
 
 Make sure that ITEMS are READY for planning. That means __stories are clear to the team and small enough to be completed in one sprint using the team's definition of DONE__.
 
- #### Release Backlog & Burndown
+__SHOULD BE VISIBLE TO ALL TO SHOW PROGRESS__
+
+ #### Prioritizing the Product Backlog
+
+* Higher ordered Prodct Backlog items are usually clearer and more detailed than lower ordered ones.
+
+* Higher priority items are the tasks to be worked on next
+
+* Break items down into smaller managable chunks
+
+* Clarify acceptance criteria
+
+* Refinement leads to higher priority items become clearer
+
+--- 
+
+
+ ### Release Backlog & Burndown
 
 Not officially a scrum artefact but often used in Scrum. Relase backlog is a subset of the Product Backlog.
 Release Burndown is a common process to monitor progress, it shows the number of Story Points remaining to release. It makes it easy to see if a project is on the right track.
@@ -279,8 +296,40 @@ Release Burndown is a common process to monitor progress, it shows the number of
 
 Subset of Release backlog with sub tasks, initially picked by the PO but finally commited to by the development team. It consists of features tasks, subtask and their estimations. The Sprint burndown (tasks done and remaining) helps the team monitor the sprint status, and allows the team to monitor the tasks remaining in the sprint backlog.
 
+> "As a <Role> I want <Requirement> so that <Reason/ROI>"
+
+> The Sprint Backlog is the set of Product Backlog items selected for the Sprint, plus a plan for delivering the product Increment and realizing the Sprint Goal. Includes Product Backlog items in a Sprint, plus a plan for delivering a Product Increment and realizing the Sprint goal.
+
+__Frozen Sprint Backlog__: Only the Development Team can change its Sprint Backlog durint a Sprint. PO should negotiatie with the team and viceversa on sprint changes.
+
+__SHOULD BE VISIBLE TO ALL TO SHOW PROGRESS__
+
 ---
 
  ### Releasable Product Increment
 
 Functionality delivered by the team each sprint. Meets definition of done (and quality standards).
+
+ #### Definition of Done
+
+If the definition of "done" for an increment is part of the conventions, standards or guidelines of the development organization, all Scrum Teams must follow it as a minimum. If "done" for an increment is __not__ a convention of the development organization, the Development Team of the Scrum Team must define a definition of "done" appropiate for the product. If there are multiple Scrum Teams working on the system or product release, development teams must mutually define the definition of "Done".
+
+* Shared understanding of DONE is Key in Scrum
+* Development Team decide "definition of DONE" but bear in mind departmental standards
+* Multiple Teams (e.g. and back and front) should mutually agree on definition of DONE
+# Scrum of Scrums
+
+The scrum of scrums is a meeting held to co-ordinate a set of inter-related scrum teams. The power and ability to scale is in the fact that one representative from each related team attends the scrum of scrums meeting. By doing this an organisation can co-ordinate hundreds of people on different teams.
+
+The illustration shows four related scrum teams. From each team, a representative has been picked to attend the meeting. The representatives are shown sharing knowledge in the centre of the illustration.
+
+Once the number of members in the scrum of scrums becomes to large a representative from that meeting can join another scrum of scrums meeting and the process can continue.
+
+In this meeting, the host asks four questions (in the same vein as the daily scrum meeting). The questions are:
+1. What have you accomplished since the last meeting
+2. What do you aim to accomplish before the next
+meeting
+3. Are there any impediments/blockers in your way
+4. Are you about to do anything that could create a blocker/impediment to the project
+
+The first three questions aim to highlight progress, draw attention to targets and surface any issues that need to be addressed to keep the project on track. The last question stems from the fact that related projects can often unknowingly create problems for each other.
