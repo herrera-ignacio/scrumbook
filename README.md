@@ -251,3 +251,36 @@ This would be the usual format but aren't necesarily held this way. This is a ch
 Not officialy a Scrum event but often used in scrum. Product backlog Items prioritised for release (subset of Product backlog).
 
 Team agree what is feasible for release, but as an indicator NOT as a commitment. This can be used to calculate __Team velocity__, used to predict how many features will be completed by a release date, or when scope is likely to be delivered for scope-driven projects.
+# Scrum Artefacts
+Each artifact help us deliver or track the product.
+
+> Scrum's artifacts represent work or value to provide transparency and opportunities for inspection and adaption. Artifacts defined by Scrum are specifically designed to maximize transparency of key information so that everybody has the same undestanding of the artifact.
+
+ ### Product Backlog
+
+Set of features the Product Owner desired to see in the final product. This adapts over time. PO maintains the backlog, and works with the Stakeholders to form the requirements, and the development team for technican income and estimates. Since a Product Backlog contains features that affects the product lifecycle as the release.
+
+The PO is responsible for the Product Backlog, including its content, availability, and ordering.
+
+__Product Backlog REFINEMENT__ is the act of adding detail, estimates, and order to items in the Product Backlog.
+
+Scrum Master and Dev Team, should disculss KEY points with PO and gain undestanding of upcoming features.
+
+Make sure that ITEMS are READY for planning. That means __stories are clear to the team and small enough to be completed in one sprint using the team's definition of DONE__.
+
+ #### Release Backlog & Burndown
+
+Not officially a scrum artefact but often used in Scrum. Relase backlog is a subset of the Product Backlog.
+Release Burndown is a common process to monitor progress, it shows the number of Story Points remaining to release. It makes it easy to see if a project is on the right track.
+
+---
+
+ ### Sprint Backlog and burdown
+
+Subset of Release backlog with sub tasks, initially picked by the PO but finally commited to by the development team. It consists of features tasks, subtask and their estimations. The Sprint burndown (tasks done and remaining) helps the team monitor the sprint status, and allows the team to monitor the tasks remaining in the sprint backlog.
+
+---
+
+ ### Releasable Product Increment
+
+Functionality delivered by the team each sprint. Meets definition of done (and quality standards).
