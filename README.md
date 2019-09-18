@@ -38,7 +38,7 @@ Through this work we have come to value:
 
 That is, while there is value in the items of the right, we value the items on the left more.
 # Scrum Intro
-__ Self Organising Cross Functional Teams__. A project manager does not control since their expertise empowers them to make decisions collectivily. The team works in iterations, which allows the business the flexibility to change its requirements, and the development team the certainty they need to deliver a working piece of the product (_Potentially Shippable Product Increment_).
+__Self Organising Cross Functional Teams__. A project manager does not control since their expertise empowers them to make decisions collectivily. The team works in iterations, which allows the business the flexibility to change its requirements, and the development team the certainty they need to deliver a working piece of the product (__Potentially Shippable Product Increment__).
 
 > Framework for developing and sustaining complex products
 
@@ -57,9 +57,9 @@ Based on __Empirical Process Control Theory__
 > Scrum is founded on Empirical Process Control Theory, or Empiricism. Empiricism asserts that knowledge comes from experience and making decisions based on what is known. Scrum employs an iterative, incremental approach to optimize predictability and control risk.
 
 Consist of __3 principles__
-1. Transparency -- open and honest as a team (done means done)
-2. Inspection -- commonly done at the end of the sprint, thus setting the sprint length is really important (check on progress)
-3. Adaptation (change thre product based on inspection)
+1. __TRANSPARENCY__ -- open and honest as a team (done means done)
+2. __INSPECTION__ -- commonly done at the end of the sprint, thus setting the sprint length is really important (check on progress)
+3. __ADAPTATION__ (change thre product based on inspection)
 
 Key points:
 * Deliveing often
@@ -80,7 +80,7 @@ Inremental deliveries of "Done" product ensure a potentially useful version of w
 Key points:
 * A working increment is delivered each sprint
 * A piece of the product is 'done', according to the team definition of 'done'
-* Includes 'rul'es defined by team -- correctly tested products
+* Includes 'rules' defined by team -- correctly tested products
 * Design standards met
 
 ---
@@ -168,3 +168,86 @@ For the Product Owner to succeed, the entire organization must respect his or he
 * Optimum team size (small for communication), usually between 3 and 9
 
 Scrum recognizes no titles for Development Team members other than Developer, regardless of the work being performed by the person, there are no exceptions to this rule.
+# Scrum Events
+Events/Time-boxes and Rules
+
+Prescribed events are used in Scrum to __create regularity and to minimize the need for meetings not defined__ in Scrum. All events are time-boxed events, such that every event has a maximum duration.
+
+> The heart of Scrum is a Sprint, a time-box or period of time less than a calendar month, in which the team delivers a product increasement. A new sprint starts immediatly after the conclusion of another one.
+
+Failure to include any of these events results in greatly reduced transparency and is a lost opportunity to inspect and adapt. If you're not doing ALL these events, you're not doing Scrum.
+
+* Sprint Planning
+* Daily Scrum
+* Sprint Review
+* Sprint Retrospective
+
+Unofficial:
+* Release Planning
+
+ #### Key Points
+
+* Set time for a task for maximum productivity and deliverability
+* Trying to minimize the need for other meetings
+    * Scrum provides the minimum set of meetings necesary to make sure that the Team has inspected on their progress, adapted, planned and though of everything they needed to to deliver that product increment. The idea is to remove the impediments to the team.
+* Maximum duration for every event
+* Observe time taken over planning (Scrum is very explicit about time boxes)
+* Only Product Owner has authority to cancel a sprint
+* Work out how much time the development team have (__Capacity__) -- take meetings into account
+* Time available - Factored unavaiable time = __Capacity__ (Builds __BUFFER__ into the plan)
+    * 5 working days, 1 day for planning & other unavailable time = 4 days capacity
+    * 10 working day, 1 day for planning = 9 days capacity
+* Sprint goal is an objective that's met through implementation of Product Backlog
+
+---
+
+ ## Events
+
+ ### Sprint Planning Meeting
+
+* Team plan the work for the sprint.
+* 4 hours meeting for a 2 week sprint -- 8 for a month
+* 2 topics
+    * __WHAT__ needs to be done
+    * __HOW__ the work will get done
+* Lots to cover, so have breaks
+
+__What__: Product Owner exposes and explains a __Proposed List of features__ (subset of _Product Backlog_). The development team ask questions and eventually pick features they believe they can commit to.
+
+__How__: The development team breaks histories in subtasks and estimate them. They're deciding the work and how they will deliver the product increment.
+
+ ### Daily Scrum
+
+* Daily meeting, no more than __15 minutes__.
+* Development team answer the following questions:
+    * What did I do yestarday that helped the Team meet the Sprint Goal?
+    * What will I do today to help the Development Team meet the Sprint Goal?
+    * Do I see any impediment that prevents me or the Development Team from meeting the Sprint Goal
+* The Sprit __Backlog and Burndown__ should be visible to draw atention to the team progress or see any impediments.
+* Held at the same time and place each day to reduce complexity
+* The Scrum Master ensures that the Development Team has the meeting, but the Development Team is responsible for conducting the Daily Scrum
+
+ ### Sprint Review
+
+Meeting held at the end of the sprint and allows the team to demo the increment of the product to the Product Owner and Stakeholders (CEO, Customer, Final Product Vendor, Director/Head of department, etc...). They can make suggestions to the Product Owner that makes notes to adapt the Product Backlog, this will be adapted and the stories updated based on the output from the Sprint Review and the demo.
+
+* Stakeholders review from previous sprint & add input to next sprint
+* __4 hours MAXIMUM time-box__
+
+
+ ### Sprint Retrospective
+
+Meeting held after the Sprint Review and before next Sprint. __90 HOURS__ for 2 week sprint.
+
+Each team member answers the following questions:
+* What worked this sprint?
+* What could be improved in the next sprint?
+
+This would be the usual format but aren't necesarily held this way. This is a chance for the team to __inspect and adapt__.
+
+---
+
+ ### Release Planning Meeting
+Not officialy a Scrum event but often used in scrum. Product backlog Items prioritised for release (subset of Product backlog).
+
+Team agree what is feasible for release, but as an indicator NOT as a commitment. This can be used to calculate __Team velocity__, used to predict how many features will be completed by a release date, or when scope is likely to be delivered for scope-driven projects.
